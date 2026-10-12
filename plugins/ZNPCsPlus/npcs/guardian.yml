@@ -1,0 +1,19 @@
+id: guardian
+is-processed: true
+allow-commands: true
+type: player
+location:
+  world: world
+  x: 0.5
+  y: 100.0
+  z: 3.5
+  yaw: 180.0
+  pitch: 0.0
+hologram:
+  offset: 0.0
+  refresh-delay: -1
+  lines:
+  - '&a&lGuardián de OneBlock'
+  - '&7[Clic para ir a tu Isla]'
+actions:
+- 'playercommand b2IgZ28=;1000;ANY_CLICK;0'

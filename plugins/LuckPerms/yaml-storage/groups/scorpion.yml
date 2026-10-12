@@ -1,0 +1,13 @@
+name: scorpion
+parents:
+- lord
+permissions:
+- permission: prefix.40.&6[SCORPION] 
+- permission: bentobox.island.maxteam.6
+- permission: essentials.sethome.multiple.scorpion
+- permission: oneblocklives.voidsave.scorpion
+- permission: essentials.repair
+- permission: essentials.feed
+- permission: essentials.kit.scorpion
+- permission: essentials.fly
+  value: false

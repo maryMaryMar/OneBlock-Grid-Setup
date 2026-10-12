@@ -1,0 +1,25 @@
+voucher:
+  item: 'nether_star'
+  name: '<red><bold>Voucher de Vida <gray>(+1 Vida)'
+  lore:
+    - '<gray>Usa este voucher para restaurar <red>+1 Vida <gray>en OneBlock.'
+    - '<gray>Si estas en el Spawn por 0 vidas, recuperas tu acceso.'
+    - ''
+    - '<yellow><bold>» <gray>Maximo: <gold>4 Vidas'
+    - '<yellow><bold>» <gray>Tradeable y comerciable entre jugadores'
+    - ''
+    - '<yellow>(!) <gray>Haz clic derecho para canjear.'
+  glowing: "add_glow"
+  commands:
+    - 'vidas add {player} 1'
+  options:
+    message: '<green>¡Has consumido tu Voucher de Vida! Tu vida ha sido restaurada.'
+    sound:
+      toggle: true
+      volume: 1.0
+      pitch: 1.2
+      sounds:
+        - 'entity.player.levelup'
+    firework:
+      toggle: true
+      colors: 'Red, Yellow, White'

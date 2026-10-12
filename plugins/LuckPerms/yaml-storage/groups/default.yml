@@ -1,0 +1,19 @@
+name: default
+permissions:
+- permission: prefix.0.&7[Usuario] 
+- permission: bentobox.island.create
+- permission: bentobox.island.go
+- permission: bentobox.island.home
+- permission: bentobox.island.team
+- permission: bentobox.island.invite
+- permission: bentobox.island.trust
+- permission: bentobox.island.maxteam.2
+- permission: essentials.home
+- permission: essentials.sethome
+- permission: essentials.delhome
+- permission: essentials.sethome.multiple.default
+- permission: essentials.balance
+- permission: essentials.pay
+- permission: essentials.spawn
+- permission: essentials.fly
+  value: false

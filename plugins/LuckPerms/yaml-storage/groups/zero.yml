@@ -1,0 +1,12 @@
+name: zero
+parents:
+- default
+permissions:
+- permission: prefix.10.&a[ZERO] 
+- permission: bentobox.island.maxteam.3
+- permission: essentials.sethome.multiple.zero
+- permission: oneblocklives.autopickup
+- permission: essentials.workbench
+- permission: essentials.kit.zero
+- permission: essentials.fly
+  value: false

@@ -1,0 +1,19 @@
+id: mercader_vidas
+is-processed: true
+allow-commands: true
+type: villager
+location:
+  world: world
+  x: 4.5
+  y: 100.0
+  z: 1.5
+  yaw: 225.0
+  pitch: 0.0
+hologram:
+  offset: 0.0
+  refresh-delay: -1
+  lines:
+  - '&c&lMercader de Vidas'
+  - '&e[Clic para tus Vidas / Vouchers]'
+actions:
+- 'playercommand dmlkYXM=;1000;ANY_CLICK;0'

@@ -1,0 +1,15 @@
+name: lord
+parents:
+- hunter
+permissions:
+- permission: prefix.30.&c[LORD] 
+- permission: bentobox.island.maxteam.5
+- permission: essentials.sethome.multiple.lord
+- permission: oneblocklives.voidsave.lord
+- permission: essentials.condense
+- permission: essentials.anvil
+- permission: essentials.furnace
+- permission: bentobox.border.color
+- permission: essentials.kit.lord
+- permission: essentials.fly
+  value: false

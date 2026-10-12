@@ -1,0 +1,13 @@
+name: hunter
+parents:
+- zero
+permissions:
+- permission: prefix.20.&9[HUNTER] 
+- permission: bentobox.island.maxteam.4
+- permission: essentials.sethome.multiple.hunter
+- permission: oneblocklives.autosmelt
+- permission: essentials.enderchest
+- permission: essentials.disposal
+- permission: essentials.kit.hunter
+- permission: essentials.fly
+  value: false

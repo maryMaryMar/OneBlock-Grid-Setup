@@ -1,0 +1,19 @@
+id: banquero
+is-processed: true
+allow-commands: true
+type: villager
+location:
+  world: world
+  x: -3.5
+  y: 100.0
+  z: 1.5
+  yaw: 135.0
+  pitch: 0.0
+hologram:
+  offset: 0.0
+  refresh-delay: -1
+  lines:
+  - '&e&lBanquero Central'
+  - '&a[Clic para consultar tu Balance]'
+actions:
+- 'playercommand YmFsYW5jZQ==;1000;ANY_CLICK;0'
