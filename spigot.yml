@@ -1,0 +1,94 @@
+# Spigot configuration for OneBlock Grid
+config-version: 12
+settings:
+  debug: false
+  save-user-cache-on-stop-only: true
+  sample-count: 12
+  player-shuffle: 0
+  user-cache-size: 1000
+  moved-wrongly-threshold: 0.0625
+  moved-too-quickly-multiplier: 10.0
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  log-villager-deaths: false
+  log-named-deaths: false
+messages:
+  whitelist: No estás en la lista blanca de OneBlock.
+  unknown-command: Comando desconocido. Usa /ob help para ayuda de OneBlock.
+  server-full: El servidor está lleno.
+  outdated-client: Cliente desactualizado. Usa 1.20.4+.
+  outdated-server: Servidor desactualizado.
+  restart: Servidor reiniciando.
+commands:
+  tab-complete: 0
+  send-namespaced: true
+  log: true
+  spam-exclusions:
+  - /skill
+  silent-operator-commands: false
+advancements:
+  disable-saving: false
+  disabled:
+  - minecraft:story/disabled
+world-settings:
+  default:
+    below-zero-generation-in-existing-chunks: false
+    verbose: false
+    merge-radius:
+      item: 4.0
+      exp: 6.0
+    item-despawn-rate: 6000
+    view-distance: default
+    simulation-distance: default
+    thunder-chance: 100000
+    mob-spawn-range: 4
+    entity-activation-range:
+      animals: 16
+      monsters: 24
+      raiders: 32
+      misc: 8
+      water: 12
+      villagers: 16
+      flying-monsters: 24
+      wake-up-inactive:
+        animals-max-per-tick: 2
+        animals-every: 1200
+        animals-for: 100
+        monsters-max-per-tick: 4
+        monsters-every: 400
+        monsters-for: 100
+        villagers-max-per-tick: 2
+        villagers-every: 600
+        villagers-for: 100
+        flying-monsters-max-per-tick: 1
+        flying-monsters-every: 200
+        flying-monsters-for: 100
+      villagers-work-immunity-after: 100
+      villagers-work-immunity-for: 20
+      villagers-active-for-panic: true
+      tick-inactive-villagers: false
+      ignore-spectators: false
+    entity-tracking-range:
+      players: 48
+      animals: 32
+      monsters: 40
+      misc: 24
+      other: 48
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    hopper-amount: 1
+    hopper-can-load-chunks: false
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+    max-tnt-per-tick: 50
+    max-tick-time:
+      tile: 50
+      entity: 50

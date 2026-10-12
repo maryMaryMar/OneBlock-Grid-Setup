@@ -1,0 +1,16 @@
+# Runtime & Logs
+logs/
+crash-reports/
+cache/
+.paper-remapped/
+*.log
+*.lck
+*.old
+
+# World data (se generará limpio en el servidor)
+world/
+world_nether/
+world_the_end/
+oneblock_world/
+oneblock_world_nether/
+oneblock_world_end/

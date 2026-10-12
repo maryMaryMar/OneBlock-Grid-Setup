@@ -1,0 +1,70 @@
+# Paper world defaults for OneBlock Grid
+_version: 30
+anticheat:
+  obfuscation:
+    items:
+      enable: false
+chunks:
+  auto-save-interval: 6000
+  delay-chunk-unloads-by: 10s
+  entity-per-chunk-save-limit:
+    arrow: 16
+    experience_orb: 16
+    snowball: 16
+    item: 32
+  fixed-chunk-inhabited-time: -1
+  max-auto-save-chunks-per-tick: 12
+  prevent-moving-into-unloaded-chunks: true
+collisions:
+  allow-player-cramming-damage: false
+  max-entity-collisions: 4
+entities:
+  armor-stands:
+    do-collision-entity-lookups: false
+    tick: false
+  behavior:
+    disable-chest-cat-detection: true
+    spawner-nerfed-mobs-should-jump: false
+  markers:
+    tick: false
+  spawning:
+    all-chunks-are-slime-chunks: false
+    alt-item-despawn-rate:
+      enabled: true
+      items:
+        cobblestone: 1200
+        netherrack: 1200
+        dirt: 1200
+    despawn-ranges:
+      ambient:
+        hard: 56
+        soft: 28
+      axolotls:
+        hard: 56
+        soft: 28
+      creature:
+        hard: 56
+        soft: 28
+      misc:
+        hard: 56
+        soft: 28
+      monster:
+        hard: 56
+        soft: 28
+      underground_water_creature:
+        hard: 56
+        soft: 28
+      water_ambient:
+        hard: 56
+        soft: 28
+      water_creature:
+        hard: 56
+        soft: 28
+redstone-implementation: ALTERNATE_CURRENT
+tick-rates:
+  behavior:
+    villager:
+      validatenearbypoi: 60
+  sensor:
+    villager:
+      secondarypoisensor: 60
